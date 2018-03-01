@@ -1,0 +1,5 @@
+[run]
+include = mytime_web/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
