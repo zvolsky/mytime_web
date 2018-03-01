@@ -56,6 +56,7 @@ LOCAL_APPS = [
     # custom users app
     'mytime_web.users.apps.UsersConfig',
     # Your stuff: custom apps go here
+    'mytime',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
