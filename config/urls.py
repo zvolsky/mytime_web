@@ -26,7 +26,7 @@ urlpatterns = [
     url(r'^rnd/$', mytime.views.rnd, name='rnd'),
 
     url(r'^favicon.ico$',
-        RedirectView.as_view(url=staticfiles_storage.url('img/favicon.ico')  # converts the staticDir+favicon into a URL
+        RedirectView.as_view(url=staticfiles_storage.url('images/favicon.ico')  # converts the staticDir+favicon into a URL
                              ), name="favicon"  # name of our view
         ),
     url(r'^robots.txt$', lambda x: HttpResponse("User-Agent: *\nDisallow:", content_type="text/plain"), name="robots_file"),
